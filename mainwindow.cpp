@@ -24,9 +24,6 @@ void MainWindow::on_btnKopieren_clicked()
 
     ui->textKopie->setText(s);
 
-    // oder
-    // ui->textKopie->setText(ui->textEingabe->text());
-
     ui->textEingabe->clear();
 
     ui->textEingabe->setFocus();
